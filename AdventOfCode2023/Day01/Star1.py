@@ -2,8 +2,8 @@
 # Day 1, Star 1
 
 # star_1_input.txt is my specific puzzle inputs
-input = open("star_1_input.txt", "r")
-lines = input.readlines()
+f = open("star_1_input.txt", "r")
+lines = f.readlines()
 
 total = 0
 for line in lines:
@@ -17,4 +17,5 @@ for line in lines:
                 first = char
                 last = char
     total += int(str(first + last))
+
 print(total)
