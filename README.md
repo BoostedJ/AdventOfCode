@@ -24,7 +24,6 @@ To check out the solutions:
 
 ## Progress
 - [ ] Day1: In Progress
-- [ ] Day1: N/A
 - [ ] Day2: N/A
 - [ ] Day3: N/A
 - [ ] Day4: N/A
@@ -52,9 +51,6 @@ To check out the solutions:
 
 ## Reflections and Learnings
 After completing each challenge, I'll add some notes here about my approach
-
-### Day0
--
 
 ### Day1
 -
