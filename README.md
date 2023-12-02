@@ -11,7 +11,9 @@ As of making this, I'm unsure I can complete all of the challenges, but I will a
 This repository is organized by day, with each day's challenge having its own folder.
 Inside each day's folder, you'll find two files. I'm aiming to use Python, but I may switch up the language if I feel it is better used for some case.
 - `Day1/Star1.py`
+- `Day1/star_1_input.txt`
 - `Day1/Star2.py`
+- `Day1/star_2_input.txt` (where applicable)
 - `Day2/Star1.py`
 - ...
 - `Day25/Star1.py`
