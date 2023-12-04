@@ -9,7 +9,7 @@ As of making this, I'm unsure I can complete all of the challenges, but I will a
 
 ## Project Structure
 This repository is organized by day, with each day's challenge having its own folder.
-Inside each day's folder, you'll find two files. I'm aiming to use Python, but I may switch up the language if I feel it is better used for some case.
+Inside each day's folder, you'll find two files.
 - `Day1/Star1.py`
 - `Day1/Star2.py`
 - `Day2/Star1.py`
@@ -24,8 +24,8 @@ To check out the solutions:
 
 ## Progress
 - [ ] Day1: In Progress
-- [ ] Day2: In Progress
-- [ ] Day3: N/A
+- [x] Day2: Completed
+- [ ] Day3: In Progress
 - [ ] Day4: N/A
 - [ ] Day5: N/A
 - [ ] Day6: N/A
@@ -58,10 +58,12 @@ After/during each challenge, I'll add some notes here about my approach and over
 - 
 
 ### Day2
-- Unfortunately, shortly after starting Star2 I became sick, but as to not fall too far behind and lose hope, I've decided to continue trying from here, although it is Day 3 as of writing this.
+- Unfortunately, shortly after starting Day1, Star2 I became sick, but as to not fall too far behind and lose hope, I've decided to continue trying from here, although it is Day 3 as of writing this.
 - My approach to Star1 was pretty simple, I noticed that each line of my input represents a game, and each set in the game is divided by a semicolon, each color/number pair divided by a comma.
 - Combining this knowledge, I used a series of .strip() and .split() to break each pair into their own values (num, and color).
 - I then set up the valid pairs as a dictionary and compared the value of the key in the valid dictionary to the value num (which holds the number of cubes pulled from the respective color)
+- Star2 was easy enough; I simply reused my program and changed some lines to, rather than compare numbers, multiply the largest value representing a color in a game and then add the new value to a total
+- Very excited to have completed my first full advent of code day!
 
 ### Day3
 -
