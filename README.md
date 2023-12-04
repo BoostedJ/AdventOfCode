@@ -4,7 +4,7 @@
 Welcome to my Advent of Code solutions repository! :)
 I'm going to try my best to tackle the daily coding challenges presented [here](https://adventofcode.com/), a series of fun, themed, and engaging programming puzzles. 
 2023 is my first time trying it out, wish me luck!
-I'm also using this time to better learn good practices in github simultaneously.
+I'm also using this time to learn good practices in Git Hub simultaneously.
 As of making this, I'm unsure I can complete all of the challenges, but I will absolutely try!
 
 ## Project Structure
@@ -24,7 +24,7 @@ To check out the solutions:
 
 ## Progress
 - [ ] Day1: In Progress
-- [ ] Day2: N/A
+- [ ] Day2: In Progress
 - [ ] Day3: N/A
 - [ ] Day4: N/A
 - [ ] Day5: N/A
@@ -50,13 +50,18 @@ To check out the solutions:
 - [ ] Day25: N/A
 
 ## Reflections and Learnings
-After completing each challenge, I'll add some notes here about my approach
+After/during each challenge, I'll add some notes here about my approach and overall thoughts. This is mostly for me to fully digest my solutions, but anyone interested obviously can read :)
 
 ### Day1
--
+- For Star 1, I used a two-pointer method to keep track of the first and last digits.
+- An improvement I would like to implement in the future is having the first pointer increment from the start of the string as the last pointer decrements from the end.
+- 
 
 ### Day2
--
+- Unfortunately, shortly after starting Star2 I became sick, but as to not fall too far behind and lose hope, I've decided to continue trying from here, although it is Day 3 as of writing this.
+- My approach to Star1 was pretty simple, I noticed that each line of my input represents a game, and each set in the game is divided by a semicolon, each color/number pair divided by a comma.
+- Combining this knowledge, I used a series of .strip() and .split() to break each pair into their own values (num, and color).
+- I then set up the valid pairs as a dictionary and compared the value of the key in the valid dictionary to the value num (which holds the number of cubes pulled from the respective color)
 
 ### Day3
 -
